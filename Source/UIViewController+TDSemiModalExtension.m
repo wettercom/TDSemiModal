@@ -32,7 +32,7 @@
     [UIView beginAnimations:nil context:nil];
 	[UIView setAnimationDuration:0.6];
 	
-	modalView.frame = CGRectMake(0, 20.0f, modalView.frame.size.width, modalView.frame.size.height);
+	modalView.frame = CGRectMake(0, 0.0f, modalView.frame.size.width, modalView.frame.size.height);
 	coverView.alpha = 0.5;
     
 	[UIView commitAnimations];
